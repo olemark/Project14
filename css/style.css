@@ -1,0 +1,143 @@
+.nav a {
+    outline: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: #484c55;
+    font-family: 'Open Sans', sans-serif;
+
+}
+    .navbar-nav > li > a {
+        padding-top: 44px;
+        padding-bottom: 42px;
+        line-height: 15px;
+    }
+.navbar-brand {
+    padding: 0;
+}
+
+.nav > li > a {
+    border-bottom: transparent 3px solid;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #f8f9fb;
+    border-bottom: #49cbcd 3px solid;
+    color: #49cbcd;
+
+}
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    }
+
+/*Block-circle*/
+.block-circle {
+    width: 200px;
+    height: 200px;
+    background-color: #eeeef0;
+    border-radius: 100px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+
+}
+.block-circle img {
+    width: 100%;
+}
+
+.block-circle:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url("../images/plus.png");
+    width: 43px;
+    height: 41px;
+    margin-top: -21px;
+    margin-left: -21px;
+    opacity: 0;
+}
+.block-circle:hover:after {
+opacity: 1;
+transition: all 0.3s;
+}
+h1 {
+    text-align: center;
+    padding: 90px 139px;
+}
+
+.block-circle {
+    margin-bottom: 71px;
+}
+.gray {
+    background-color: #f1f1f1;
+    padding: 119px 0 101px;
+    font-size: 14px;
+    line-height: 45px;
+    ;
+
+}
+
+.gray-column, .gray-center{
+text-align: center;
+    list-style: none;
+    padding: 0;
+    background-color: #f8f9fb;
+    border-bottom: #ecf0f1 1px solid;
+
+}
+.gray-column li, .gray-center li {
+    border: #ecf0f1 1px solid;
+    border-bottom: none;
+    background-color: #FFFFFF;
+}
+
+.basic {
+    color: white;
+    font-size: 26px;
+    line-height: 75px ;
+    font-family: 'Open Sans', sans-serif;
+    border: #000 1px solid;
+    border-bottom: none;
+
+
+}
+.gray-column .basic {
+    background-color: #485460;
+}
+.gray-column.gray-center .basic {
+    background-color: #49cbcd;
+}
+
+.month {
+    max-width: 365px;
+    width: 100%;
+    color: #485460;
+    font-size: 20px;
+    line-height: 68px ;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fb!important;
+}
+
+
+.gray-column li {
+
+}
+.gray-column li a {
+    max-width: 170px;
+    width: 100%;
+    color: white;
+    background-color: #788492;
+    font-size: 17px;
+    line-height: 40px ;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+
+}
+
+.gray-column li:last-of-type{
+    background-color: #f8f9fb;
+    line-height: 98px;
+
+}
+
